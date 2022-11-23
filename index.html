@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MezMojito</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- bootstrap -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body class="bg-dark ">
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <a id="brandname" href="#home" class="logo">
+            <h1>MezMojito</h1>       
+        </a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#login">Login</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#products">products</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+       
+        
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3 style="    font-family: 'Roboto', sans-serif;">The perfect thirst quencher </h3>
+            <p>Mojito is a beautifully effervescent cocktail that's endlessly versatile.It's a crowdpleaser with a
+                fascinating profile.
+            </p>
+            <a href="#login" class="btn btn-warning mb-4 p-3" style="font-size:1.7rem;margin-left:5px;"><i class="fa fa-user mx-3" aria-hidden="true"></i>Do You have an Account?</a>
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+ <!-- login -->
+ <section class="login" id="login">
+
+    <h1 class="heading"> <span>Log in</span> Now</h1>
+    <p>Try At Home</p>
+
+    <div class="row">
+
+        <iframe class="map" width="942" height="530" src="https://www.youtube.com/embed/Dl4RHpoyBhc" title="Virgin Mojito | How to make virgin mojito" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <!-- Login Starts-->
+        <form action="">
+            <h3>log in</h3>
+            <div class="inputBox">
+
+                <label for="uname" class="col-sm-2 col-form-label fas fa-user"></label>
+                <input id="uname" type="text" class="form-control"  placeholder="Name">
+            </div>
+            <!-- <div class="inputBox">
+                <label for="email" class="col-sm-2 col-form-label fas fa-envelope"></label>
+                <input id="email" type="email" class="form-control" placeholder="email">
+            </div> -->
+            
+            <div class="inputBox">
+                <label  for="pswd" class="col-sm-2 col-form-label fa fa-key"></label>
+                <input id="pswd" type="text" class="form-control" placeholder="Password">
+            </div>
+           
+            <button type="button" onclick="Login()" class="btn btn-primary mt-5 mx-5"> Login </button>
+            <a href="./signup.html" type="button"  class="btn btn-success mt-5 mx-5" > Sign Up </a>
+
+            </form>
+
+        <!-- Login Ends -->
+        
+
+</section>
+<!-- login ends -->
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+
+        <h1 class="heading"> <span>about</span> us </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/about-img.jpeg" alt="">
+            </div>
+
+            <div class="content">
+                <h3>what makes Mojito A Perfect Drink?</h3>
+                <p>Mojito is super refreshing.this compound is good for the heart and some neurodegenerative conditions
+                    like Alzheimer and Dementia. An excellent source of the aforementioned is Mint leaves, which is also
+                    the main ingredient of mojitos.
+                </p>
+                <p>With Vitamin C present, it is obvious Mojitos will serve as great immunity boosters. It may provide
+                    you with one layer of protection from viral infection that may spread during seasons. Also it gives
+                    you healthy digestion.</p>
+                <p>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseWidthExample" aria-expanded="false"
+                        aria-controls="collapseWidthExample">
+                        Learn More
+                    </button>
+                </p>
+                <div style="min-height: 120px;">
+                    <div class="collapse collapse-horizontal " id="collapseWidthExample">
+                        <div class="card card-body fs-3 bg-dark text-light" style="width: 350px;">
+                            Amazing benefits for your skin.
+                            <span class="text-primary">click link below:</span>
+                            <a href="https://guardian.ng/life/cocktails-5-amazing-health-benefits-of-drinking-mojitos/">Amazing
+                                Benefits on Skin</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- menu section starts  -->
+
+    <section class="menu" id="menu">
+
+        <h1 class="heading"> our <span>menu</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/menu-1.png" alt="">
+                <h3>Strawberry Mojito</h3>
+                <div class="price">₹100 <span>150</span></div>
+                <a href="https://www.allrecipes.com/recipe/172777/strawberry-mojito/" class="btn btn-primary">add to
+                    cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-2.png" alt="">
+                <h3>Green Apple Mojito</h3>
+                <div class="price">₹110 <span>190</span></div>
+                <a href="https://recipes.timesofindia.com/beverage/cocktails/green-apple-mojito/rs60258570.cms"
+                    class="btn btn-primary">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-3.png" alt="">
+                <h3>Blueberry Mojito</h3>
+                <div class="price">₹170<span>240</span></div>
+                <a href="https://www.inspiredtaste.net/15348/blueberry-mojito-cocktail-recipe/"
+                    class="btn btn-primary">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-4.png" alt="">
+                <h3>Peach Mojito</h3>
+                <div class="price">₹175 <span>250</span></div>
+                <a href="https://www.myrecipes.com/recipe/peach-mojitos" class="btn btn-primary">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/menu-5.png" alt="">
+                <h3>Raspberry Mojito</h3>
+                <div class="price">₹180 <span>260</span></div>
+                <a href="https://www.bbcgoodfood.com/recipes/raspberry-mojito" class="btn btn-primary">add to cart</a>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- menu section ends -->
+
+    <section class="products" id="products">
+
+        <h1 class="heading"> our <span>other products</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/product-1.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Mojito Cocktail Kit </h3>
+                    <p> Cocktail Set - 6 Hiball Glasses Ice Crusher & Accessories</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">₹899<span> ₹1049</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/product-2.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Mojito Shaker Kit </h3>
+                    <p>New Bar Tool Set Bartending Cocktail Shaker Kit</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">₹999 <span>₹1599</span></div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-shopping-cart"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/product-3.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Mojito Mix </h3>
+                    <p>Mojito-Cocktail Pre-Mixes (Pack Of 4)</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price">₹370 <span>₹400</span></div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> customer's <span>review</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/quote-img.png" alt="" class="quote">
+                <p>Mojito cocktails are one of the best drinks, ever. The refreshing lime flavor, mixed with rum, pairs
+                    perfectly with fresh mint. Mojitos are great as a slow sipper at the end of the day or a casual
+                    gathering
+                    with friends.</p>
+                <img src="images/pic-1.png" class="user" alt="">
+                <h3>john deo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/quote-img.png" alt="" class="quote">
+                <p>Best Mojito in the Town.With Vitamin C present, it is obvious Mojitos will serve as great immunity
+                    boosters. It may provide you with one layer of protection from viral infection that may spread
+                    during seasons. </p>
+                <img src="images/pic-2.png" class="user" alt="">
+                <h3>john deo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/quote-img.png" alt="" class="quote">
+                <p>A stimulating mojito fueled with the goodness of raspberry, blueberry and blackberry, this is the
+                    best drink to prevent acne and stop skin inflammation. A must try whenever you visit Kochi.</p>
+                <img src="images/pic-3.png" class="user" alt="">
+                <h3>john deo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading"> <span>contact</span> us </h1>
+
+        <div class="row">
+            <div class="col-md-6">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d251482.7098221955!2d76.16084684787937!3d9.98234276321337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d514abec6bf%3A0xbd582caa5844192!2sKochi%2C%20Kerala!5e0!3m2!1sen!2sin!4v1666159858921!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
+            </div>
+            <div class="col-md-6">
+               <!--  -->
+              <!--Section: Contact v.2-->
+<section class="mb-4 text-light">
+
+    <!--Section heading-->
+    <!--Section description-->
+    <h1 class="text-center w-responsive mx-auto mb-5">Do you have any questions? </h1>
+       <p class="text-center w-responsive mx-auto mb-5 fs-3">
+            Please do not hesitate to contact us directly. Our team will come back to you within
+            a matter of hours to help you.
+       </p>
+    <div class="row">
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" placeholder="Your Name" class="form-control">
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" placeholder="Your Email" class="form-control">
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12 mt-5">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" placeholder="subject" name="subject" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form mt-5">
+                            <textarea type="text" id="message" name="message" placeholder="Your Message" rows="4" class="form-control md-textarea"></textarea>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left mt-4">
+                <a class="btn btn-primary">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>Near Avenue Centre, Panampilly Nagar, Kochi, Kerala </p>
+                </li>
+
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p>+91 9895663584</p>
+                </li>
+
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>contact@MezMojito.com</p>
+                </li>
+            </ul>
+        </div>
+        <!--Grid column-->
+
+    </div>
+
+</section>
+<!--Section: Contact v.2-->
+               <!--  -->
+            </div>
+        </div>
+            <!-- Login Ends -->
+            
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- blogs section starts  -->
+
+    <section class="blogs" id="blogs">
+
+        <h1 class="heading"> our <span>blogs</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-1.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">Best Mint Mojito Recipe</a>
+                    <span>by EMMA CHAPMAN / 21st may, 2021</span>
+                    <p>Sipping on a mojito always tastes like vacation. A classic mojito is just one of those drinks
+                        that I tend to order when I'm on a beach.</p>
+                    <a href="https://abeautifulmess.com/best-at-home-mojito-recipe/" class="btn btn-primary">Read
+                        More</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-2.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">tasty and refreshing coffee</a>
+                    <span>by CHRISTINA PIERRIE / 19th June, 2022</span>
+                    <p>The very thought of tea in a cocktail might raise your eyebrows, but try this adaptation of the
+                        classic Mojito with Red Tea. </p>
+                    <a href="https://bluetea.co.in/blogs/news/red-layered-mojito" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/blog-3.jpeg" alt="">
+                </div>
+                <div class="content">
+                    <a href="#" class="title">The Mexican version Tequila </a>
+                    <span>by Meiro Quin / 7th March, 2022</span>
+                    <p>Sometimes All You Need Is A Mojito.Although Mojito is very easy to prepare, it's also a cocktail
+                        with lots of personality. </p>
+                    <a href="https://www.hungryforever.com/sometimes-need-mojito/" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+   
+    <!-- blogs section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="links">
+            <a href="#">home</a>
+            <a href="#login">Login</a>
+            <a href="#">about</a>
+            <a href="#">menu</a>
+            <a href="#">products</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+            <a href="#">blogs</a>
+        </div>
+
+        <div class="credit">created by <span>Ms. Aiswarya RaJ</span> | all rights reserved</div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
